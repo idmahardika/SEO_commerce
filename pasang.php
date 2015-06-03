@@ -18,6 +18,10 @@
 		<input type="text" name="s_name">
 		<label> Author (Nama Pemilik) </label>
 		<input type="text" name="s_author">
+		<label> Username </label>
+		<input type="text" name="a_username">
+		<label> Password </label>
+		<input type="password" name="a_password">
 		<input type="submit" value="kirim">
 	</form>
 	</div>

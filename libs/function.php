@@ -38,4 +38,13 @@
 				}
 			}
 		}
+		function r_admin($au,$ap) {
+			session_start();
+			include 'dbconn.php';
+			$query	= "INSERT INTO `user` (`username`,`password`) VALUES ('$au','$ap')";
+			$result	= $conn->query($query);
+			if ($result === FALSE) {
+						echo "Terjadi Galat!" .$conn->error;
+				}
+		}
 	}

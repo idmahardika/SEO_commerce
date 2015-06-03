@@ -1,11 +1,10 @@
 <?php
 session_start();
-include 'libs/function.php';
 include 'libs/meta.php';
 $s_title	= "Masuk ke Dasbor Admin - " . $s_name;
 $s_desc		= "";
 $s_index	= 0;
-include 'head.php';
+include 'theme/head.php';
 ?>
 <body>
 	<div class="container">
@@ -19,10 +18,10 @@ include 'head.php';
                         <form role="form" method="POST" action="masuk_p.php">
                             <fieldset>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="Username/Mail" name="username" type="text" autofocus required>
+                                    <input class="form-control" placeholder="Username" name="a_username" type="text" autofocus required>
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="Password" name="password" type="password" required>
+                                    <input class="form-control" placeholder="Password" name="a_password" type="password" required>
                                 </div>               
 								<div class="form-group">
 									<input class="btn btn-lg btn-success btn-block" value="Masuk" type="submit" required>
@@ -41,4 +40,3 @@ include 'head.php';
     <script src="dist/js/sb-admin-2.js"></script>
 </body>
 </html>
-	
