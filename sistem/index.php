@@ -4,6 +4,8 @@ include 'libs/meta.php';
 $s_title	= "Dasbor Utama Admin - " . $s_name;
 $s_desc		= "";
 $s_index	= 0;
+$add_head	= "";
+$add_footer = "";
 include 'theme/head.php';
 $c_member	= "12";
 $c_order	= "22";
@@ -93,9 +95,6 @@ $c_confirm	= "44";
             </div>
 		</div>
 	</div>
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="bower_components/metisMenu/dist/metisMenu.min.js"></script>
-<script src="dist/js/sb-admin-2.js"></script>
+<?php include 'theme/footer.php';?>
 </body>
 </html>
