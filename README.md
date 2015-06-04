@@ -7,14 +7,14 @@ Dynamic SMS (Shop Management System)
  - Membership
 
 Feature:
-Lightweight Web Page.
-User Friendly.
-User Experience Optimize.
-Search Engine Optimize
+- Lightweight Web Page.
+- User Friendly.
+- User Experience Optimize.
+- Search Engine Optimize
  - Schema Item Product Single 
  - Category Optimized
  - Image Title & ALT BoK (Based on Keyword)
-Advanced Analytics Admin Dashboard (Google Analytics)
+- Advanced Analytics Admin Dashboard (Google Analytics)
  - Goal Setup
  - Funnel Setup
  - Online Custom Dashboard Report
