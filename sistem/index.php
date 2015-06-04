@@ -11,6 +11,9 @@ $c_member	= "12";
 $c_order	= "22";
 $c_confirm	= "44";
 ?>
+
+OLA
+
 <body>
     <div id="wrapper">
 		<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
