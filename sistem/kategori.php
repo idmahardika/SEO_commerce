@@ -1,1 +1,1 @@
-OLAs
+Mending kita iyain aja untuk bayar domainnya, tapi bayarnya ke Paypal Yuda aja wkaowkoakwokaowkako
