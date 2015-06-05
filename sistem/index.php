@@ -4,16 +4,11 @@ include 'libs/meta.php';
 $s_title	= "Dasbor Utama Admin - " . $s_name;
 $s_desc		= "";
 $s_index	= 0;
-$add_head	= "";
-$add_footer = "";
-include 'theme/head.php';
+require 'theme/head.php';
 $c_member	= "12";
 $c_order	= "22";
 $c_confirm	= "44";
 ?>
-
-OLAaaaaaaaaaaaaaaaa
-
 <body>
     <div id="wrapper">
 		<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
@@ -25,7 +20,7 @@ OLAaaaaaaaaaaaaaaaa
 		 <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Dasbor Utama - <?php echo $s_name;?></h1>
+                    <h1 class="page-header">Dasbor Utama</h1>
                 </div>
 			 </div>
 			 <div class="row">

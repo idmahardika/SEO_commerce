@@ -1,3 +1,6 @@
+<?php 
+$add_head	= "";
+?>
 <html lang="id">
 <head>
 	<!-- Meta SEO -->
